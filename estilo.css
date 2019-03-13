@@ -121,4 +121,17 @@ section#corpo p {
 	text-align: justify;
 }
 
+.no-padding {
+	padding: 0px !important;
+	text-indent: 0px !important;
+	text-align: left !important;
+}
+
+.shopping-button {
+	float: right;
+	background-color: #e21a1a !important;
+	border-color: transparent !important;
+	width: 120px;
+}
+
 
