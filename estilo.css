@@ -10,11 +10,6 @@ a{
 body{
 	font-family: arial;
 	display: block;
-	width: 80%;
-	height: 100%;
-	padding-left:200px;
-	padding-right: 200px;
-
 }
 html{
 	background-image: url(./img/back.jpg);
@@ -41,16 +36,16 @@ input[type="checkbox"] {
 	display: none;
 }
 input[type="checkbox"]:checked ~ nav#menu_lateral {
-	transform: translateX(600px);
+	transform: translateX(400px);
 }
 nav#menu_lateral{
 	background-color: rgba(16,16,16,.5);
-	width: 400px;
+	width: 210px;
 	height: 100%;
 	left: -400px;
 	position: absolute;
 	transition: all .5s ;
-
+	padding-left: 20px;
 }
 
 nav#menu_lateral a {
@@ -76,20 +71,28 @@ header#cabecalho{
 	box-shadow: 3px #dddddd;
 	background-color: rgb(49,175,14);
 	height: 100px;
-	width: 115%
+	width: 115%;
+	display: flex;
 }
 header#cabecalho img {
-	width: 150px;
+	width: 130px;
 }
 form#pesquisa {
-	position: relative;
 	bottom: 100px; 
 }
 input.busca {
 	height: 50px;
+	margin-top: 25px;
 }
-input.lupa{
-	width: 50px;
+img.lupa{
+	width: 40px !important;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.header-image-col {
+	width: 20%;
+	padding-left: 30px;
 }
 /* ----------------------------rodape---------------------------------------*/
 footer{
