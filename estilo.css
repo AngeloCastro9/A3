@@ -45,7 +45,7 @@ nav#menu_lateral{
 	left: -400px;
 	position: absolute;
 	transition: all .5s ;
-	padding-left: 20px;
+	padding-left: 2px;
 }
 
 nav#menu_lateral a {
@@ -113,6 +113,14 @@ section#corpo {
 div#corpo {
 
 	width: 800px;
+	height: 100%;
+	padding: 50px;
+	padding-left: 25%;
+}
+
+div#corpo-quemSomos {
+
+	width: 1500px;
 	height: 100%;
 	padding: 50px;
 	padding-left: 25%;
