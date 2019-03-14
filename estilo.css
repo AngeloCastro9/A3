@@ -118,6 +118,13 @@ div#corpo {
 	padding-left: 25%;
 }
 
+div#home {
+	width: 1500px;
+	height: 100%;
+	padding: 50px;
+	padding-left: 20%;
+}
+
 section#corpo p {
 	text-indent: 20px;
 	padding: 20px;
