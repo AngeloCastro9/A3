@@ -20,7 +20,7 @@ html{
 nav#menu_lateral ul {
 	list-style: none;
 	top: 80px;
-	position: absolute;
+	position: relative;
 	width: 100%;
 
 }
